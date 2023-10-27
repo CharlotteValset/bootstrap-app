@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-app",
+  "version": "0.0.1",
+  "description": "Example bootstrap app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Charlotte",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlotteValset/bootstrap-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CharlotteValset/bootstrap-app/issues"
+  },
+  "homepage": "https://github.com/CharlotteValset/bootstrap-app#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}

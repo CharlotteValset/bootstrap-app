@@ -5,19 +5,8 @@
 //Background color
 $white:    #1A1D2E;
 
-$gray-100: #f8f9fa; 
-$gray-200: #e9ecef; 
-$gray-300: #dee2e6;
-$gray-400: #ced4da; 
-$gray-500: #adb5bd; 
-$gray-600: #6c757d; 
-$gray-700: #495057; 
-$gray-800: #343a40;
-
 //Font color 
-$gray-900: #fff;
-
-$black:    #000; 
+$gray-900: #F5F5F5;
 
 // Typography
 
@@ -28,12 +17,33 @@ $font-family-sans-serif: "Helvetica Neue", sans-serif;
 $headings-font-weight:        300;
 //Font weight text
 $font-weight-normal:          300;
+
+// Nav bar
+$navbar-light-active-color:         #EBC0FF;
+$navbar-light-hover-color:  #d506ff;
+// this is also border around hamburger bar
+$navbar-light-color: #F5F5F5;
+
+
+$navbar-light-icon-color: #EBC0FF;
+
 // Input border color
-$input-border-color:                    rgba(235, 192, 255, 1);
+$input-border-color:                   #EBC0FF;
+$input-btn-border-width: 0.5px;
 
-// scss-docs-start btn-variables
-$btn-color: linear-gradient(100deg, #EABDFF 6.95%, #A097FA 100%);
+// Primary button
+$primary: #EABDFF;
+$btn-link-color:              #fff;
+$btn-link-hover-color:  #d506ff;
 
-$btn-primary-bg: #ff5733;
+$btn-border-width:            0.5px;
 
-$bg-primary: #198754;
+.btn-primary {
+  background: linear-gradient(100deg, #EABDFF 6.95%, #A097FA 100%);
+}
+
+//secondary button
+$secondary: #EABDFF;
+
+//Cards
+$card-border-color: none;

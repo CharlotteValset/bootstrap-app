@@ -1,56 +1,26 @@
+$enable-shadows: true;
+
+
 
 // Color system
 
-// scss-docs-start gray-color-variables
 //Background color
-$white:    #1A1D2E;
+$white: #1A1D2E;
 
-//Font color 
-$gray-900: #F5F5F5;
+
 
 // Typography
 
 //Font family
 $font-family-sans-serif: "Helvetica Neue", sans-serif;
 
-
 //Font weight headings
-$headings-font-weight:        300;
+$headings-font-weight: 300;
+
 //Font weight text
-$font-weight-normal:          300;
+$font-weight-normal: 300;
 
-// Nav bar
-$navbar-light-active-color:         #EBC0FF;
-$navbar-light-hover-color:          #DA8AFF;
-// this is also border around hamburger bar
-$navbar-light-color:                #F5F5F5;
+//Font color 
+$gray-900: #F5F5F5;
 
-
-$navbar-light-icon-color:         #EBC0FF;
-
-// Input border color
-$input-border-color:                   #EBC0FF;
-$input-btn-border-width:                 0.5px;
-
-// Primary button
-$primary:                     #e09cff;
-
-
-$btn-border-width:              0.5px;
-
-
-//secondary button
-$secondary: #e09cff;
-
-//Cards
-$card-border-color: none;
-
-//Profile PAGE
-
-//my posts cards
-$card-bg: #252941;
-$container-padding-x: 0px;
-$card-cap-bg: #252941;
-$card-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
-
-
+$grid-gutter-width: 10px;
